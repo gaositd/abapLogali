@@ -14,6 +14,7 @@ ENDCLASS.
 CLASS z07find IMPLEMENTATION.
 
     METHOD if_oo_adt_classrun~main.
+
         CONSTANTS: lc_name       TYPE String VALUE 'Ayde Cristina Gamez Meraz',
                    lc_birth_date TYPE String VALUE 'Diciembre, 16 del 2016',
                    lc_mother     TYPE String VALUE 'Daniela Iveth Meraz Silva',

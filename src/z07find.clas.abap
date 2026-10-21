@@ -34,7 +34,7 @@ CLASS z07find IMPLEMENTATION.
         lv_pos = find_any_of( val = lc_name sub = 'Zb' ).
         out->write( |lv_pos with patron error 1 { lv_pos }| ).
 
-        lv_find = find( val = lc_birth_date regex = lc_regex  ).
+        lv_find = find( val = lc_birth_date pcre = lc_regex  ).
         out->write( |lv_find using find and regex { lv_find }| ).
 
        FIND ALL OCCURRENCES OF 'e' in lc_birth_date MATCH COUNT lv_find.

@@ -26,7 +26,7 @@ CLASS z09comparation_operators IMPLEMENTATION.
 
         ENDIF.
 
-        IF ( lv_text NP '*g' ).
+        IF ( lv_text NP '*g+' ).
             lv_match = abap_true.
             out->write( |The text contain the pattern "g" { lv_match }| ).
         ELSE.

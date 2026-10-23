@@ -61,6 +61,8 @@ CLASS z16b3expresioneslogicasdoendo IMPLEMENTATION.
 
     ENDDO.
 
+
+
   ENDMETHOD.
 
 ENDCLASS.

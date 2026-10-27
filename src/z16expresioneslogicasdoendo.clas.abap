@@ -1,4 +1,4 @@
-CLASS z16b3expresioneslogicasdoendo DEFINITION
+CLASS z16expresioneslogicasdoendo DEFINITION
   PUBLIC
   FINAL
   CREATE PUBLIC .
@@ -9,7 +9,7 @@ CLASS z16b3expresioneslogicasdoendo DEFINITION
   PRIVATE SECTION.
 ENDCLASS.
 
-CLASS z16b3expresioneslogicasdoendo IMPLEMENTATION.
+CLASS z16expresioneslogicasdoendo IMPLEMENTATION.
 
   METHOD if_oo_adt_classrun~main.
     DATA(lv_num) = 0.

@@ -1,4 +1,4 @@
-CLASS z18b3expresioneslogicasscond DEFINITION
+CLASS z18expresioneslogicasscond DEFINITION
   PUBLIC
   FINAL
   CREATE PUBLIC .
@@ -9,7 +9,7 @@ CLASS z18b3expresioneslogicasscond DEFINITION
   PRIVATE SECTION.
 ENDCLASS.
 
-CLASS z18b3expresioneslogicasscond IMPLEMENTATION.
+CLASS z18expresioneslogicasscond IMPLEMENTATION.
 
   METHOD if_oo_adt_classrun~main.
     DATA(vl_get_time) = cl_abap_context_info=>get_system_time(  ).

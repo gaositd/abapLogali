@@ -1,4 +1,4 @@
-CLASS z15b3expresioneslogicascase DEFINITION
+CLASS z15expresioneslogicascase DEFINITION
   PUBLIC
   FINAL
   CREATE PUBLIC .
@@ -9,7 +9,7 @@ CLASS z15b3expresioneslogicascase DEFINITION
   PRIVATE SECTION.
 ENDCLASS.
 
-CLASS z15b3expresioneslogicascase IMPLEMENTATION.
+CLASS z15expresioneslogicascase IMPLEMENTATION.
 
   METHOD if_oo_adt_classrun~main.
     DATA: lv_result TYPE i.

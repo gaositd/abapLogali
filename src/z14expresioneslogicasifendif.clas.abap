@@ -1,4 +1,4 @@
-CLASS z14b3expresioneslogicasifendif DEFINITION
+CLASS z14expresioneslogicasifendif DEFINITION
   PUBLIC
   FINAL
   CREATE PUBLIC .
@@ -9,7 +9,7 @@ CLASS z14b3expresioneslogicasifendif DEFINITION
   PRIVATE SECTION.
 ENDCLASS.
 
-CLASS z14b3expresioneslogicasifendif IMPLEMENTATION.
+CLASS z14expresioneslogicasifendif IMPLEMENTATION.
 
   METHOD if_oo_adt_classrun~main.
     DATA: lv_char  TYPE c LENGTH 1 VALUE 'C',

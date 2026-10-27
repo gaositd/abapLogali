@@ -1,4 +1,4 @@
-CLASS z17b3expresioneslogicasswitch DEFINITION
+CLASS z17expresioneslogicasswitch DEFINITION
   PUBLIC
   FINAL
   CREATE PUBLIC .
@@ -9,7 +9,7 @@ CLASS z17b3expresioneslogicasswitch DEFINITION
   PRIVATE SECTION.
 ENDCLASS.
 
-CLASS z17b3expresioneslogicasswitch IMPLEMENTATION.
+CLASS z17expresioneslogicasswitch IMPLEMENTATION.
 
   METHOD if_oo_adt_classrun~main.
     DO 7 TIMES.

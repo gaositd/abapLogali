@@ -1,4 +1,4 @@
-CLASS z20b3expresioneslogicassloop DEFINITION
+CLASS z20expresioneslogicassloop DEFINITION
   PUBLIC
   FINAL
   CREATE PUBLIC .
@@ -9,7 +9,7 @@ CLASS z20b3expresioneslogicassloop DEFINITION
   PRIVATE SECTION.
 ENDCLASS.
 
-CLASS z20b3expresioneslogicassloop IMPLEMENTATION.
+CLASS z20expresioneslogicassloop IMPLEMENTATION.
 
   METHOD if_oo_adt_classrun~main.
     TYPES:BEGIN OF lt_num,

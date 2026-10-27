@@ -3,9 +3,9 @@
  <asx:abap xmlns:asx="http://www.sap.com/abapxml" version="1.0">
   <asx:values>
    <VSEOCLASS>
-    <CLSNAME>Z17B3EXPRESIONESLOGICASSWITCH</CLSNAME>
+    <CLSNAME>Z16EXPRESIONESLOGICASDOENDO</CLSNAME>
     <LANGU>E</LANGU>
-    <DESCRIPT>Clase sobre expresiones lógicas check</DESCRIPT>
+    <DESCRIPT>Clase sobre expresiones lógicas do enddo</DESCRIPT>
     <STATE>1</STATE>
     <CLSCCINCL>X</CLSCCINCL>
     <FIXPT>X</FIXPT>

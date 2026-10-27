@@ -3,9 +3,9 @@
  <asx:abap xmlns:asx="http://www.sap.com/abapxml" version="1.0">
   <asx:values>
    <VSEOCLASS>
-    <CLSNAME>Z19B3EXPRESIONESLOGICASSWHILE</CLSNAME>
+    <CLSNAME>ZCL_LAB_09_STRUCTURE_ALVARO</CLSNAME>
     <LANGU>E</LANGU>
-    <DESCRIPT>Clase sobre expresiones lógicas while endwhile</DESCRIPT>
+    <DESCRIPT>Laboratory control structures III</DESCRIPT>
     <STATE>1</STATE>
     <CLSCCINCL>X</CLSCCINCL>
     <FIXPT>X</FIXPT>

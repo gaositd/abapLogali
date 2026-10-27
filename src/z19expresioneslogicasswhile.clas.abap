@@ -1,4 +1,4 @@
-CLASS z19b3expresioneslogicasswhile DEFINITION
+CLASS z19expresioneslogicasswhile DEFINITION
   PUBLIC
   FINAL
   CREATE PUBLIC .
@@ -9,7 +9,7 @@ CLASS z19b3expresioneslogicasswhile DEFINITION
   PRIVATE SECTION.
 ENDCLASS.
 
-CLASS z19b3expresioneslogicasswhile IMPLEMENTATION.
+CLASS z19expresioneslogicasswhile IMPLEMENTATION.
 
   METHOD if_oo_adt_classrun~main.
     data(lv_bool) = abap_true.

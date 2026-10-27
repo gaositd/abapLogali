@@ -1,4 +1,4 @@
-CLASS z21b3expresionelogicatryendtry DEFINITION
+CLASS z21expresionelogicatryendtry DEFINITION
   PUBLIC
   FINAL
   CREATE PUBLIC .
@@ -9,7 +9,7 @@ CLASS z21b3expresionelogicatryendtry DEFINITION
   PRIVATE SECTION.
 ENDCLASS.
 
-CLASS z21b3expresionelogicatryendtry IMPLEMENTATION.
+CLASS z21expresionelogicatryendtry IMPLEMENTATION.
 
   METHOD if_oo_adt_classrun~main.
     DATA: lv_num1 TYPE i VALUE 10,

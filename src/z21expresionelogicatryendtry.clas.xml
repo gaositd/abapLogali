@@ -3,9 +3,9 @@
  <asx:abap xmlns:asx="http://www.sap.com/abapxml" version="1.0">
   <asx:values>
    <VSEOCLASS>
-    <CLSNAME>Z15B3EXPRESIONESLOGICASCASE</CLSNAME>
+    <CLSNAME>Z21EXPRESIONELOGICATRYENDTRY</CLSNAME>
     <LANGU>E</LANGU>
-    <DESCRIPT>Clase sobre expresiones lógicas case endcase</DESCRIPT>
+    <DESCRIPT>Clase sobre expresiones lógicas try endtry</DESCRIPT>
     <STATE>1</STATE>
     <CLSCCINCL>X</CLSCCINCL>
     <FIXPT>X</FIXPT>

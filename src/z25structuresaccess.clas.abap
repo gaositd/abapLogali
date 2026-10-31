@@ -28,7 +28,7 @@ CLASS z25structuresaccess IMPLEMENTATION.
     ls_flight_info-connid  = '0022'.
     ls_flight_info-lt_flights-currency_code = 'MXN'.
     ls_flight_info-lt_flights-flight_date   = cl_abap_context_info=>get_system_date(  ). "'20261212'.
-    ls_flight_info-lt_flights-price         = 10.
+    ls_flight_info-lt_flights-price         = 100.
 
     out->write( data = ls_flight_info name = 'Data:' ).
   ENDMETHOD.

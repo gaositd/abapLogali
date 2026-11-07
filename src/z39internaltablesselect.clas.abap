@@ -1,4 +1,4 @@
-CLASS z38internaltablesselect DEFINITION
+CLASS z39internaltablesselect DEFINITION
   PUBLIC
   FINAL
   CREATE PUBLIC .
@@ -9,7 +9,7 @@ CLASS z38internaltablesselect DEFINITION
   PRIVATE SECTION.
 ENDCLASS.
 
-CLASS z38internaltablesselect IMPLEMENTATION.
+CLASS z39internaltablesselect IMPLEMENTATION.
 
   METHOD if_oo_adt_classrun~main.
     TYPES: BEGIN OF ty_flights_fields,

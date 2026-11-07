@@ -1,4 +1,4 @@
-CLASS z38internaltablessorttables DEFINITION
+CLASS z40internaltablessorttables DEFINITION
   PUBLIC
   FINAL
   CREATE PUBLIC .
@@ -9,7 +9,7 @@ CLASS z38internaltablessorttables DEFINITION
   PRIVATE SECTION.
 ENDCLASS.
 
-CLASS z38internaltablessorttables IMPLEMENTATION.
+CLASS z40internaltablessorttables IMPLEMENTATION.
 
   METHOD if_oo_adt_classrun~main.
     DATA: it_flights TYPE STANDARD TABLE OF /dmo/flight.
@@ -39,7 +39,7 @@ CLASS z38internaltablessorttables IMPLEMENTATION.
     SORT it_flights by carrier_id flight_date DESCENDING.
     out->write( data = it_flights name = 'After sorted descending, use many fields' ).
 
-    SORT it_flights by carrier_id DESCENDING flight_date ASCENDING.
+    SORT it_flights by carrier_id DESCENDING flight_date ASCENDING seats_occupied DESCENDING.
     out->write( data = it_flights name = 'After sorted descending, use many fields ascending and descendig' ).
 
   ENDMETHOD.

@@ -9,7 +9,10 @@ CLASS z32internaltablescorrespondig DEFINITION
   PRIVATE SECTION.
 ENDCLASS.
 
-CLASS z32internaltablescorrespondig IMPLEMENTATION.
+
+
+CLASS Z32INTERNALTABLESCORRESPONDIG IMPLEMENTATION.
+
 
   method if_oo_adt_classrun~main.
     types: BEGIN OF lty_flights,
@@ -76,5 +79,4 @@ CLASS z32internaltablescorrespondig IMPLEMENTATION.
     out->write( data = gt_my_flights_others_names name = 'gt_my_flights 3' ).
 
   endmethod.
-
 ENDCLASS.

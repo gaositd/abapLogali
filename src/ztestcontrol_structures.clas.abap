@@ -9,7 +9,11 @@ CLASS ztestcontrol_structures DEFINITION
   PRIVATE SECTION.
 ENDCLASS.
 
-CLASS ztestcontrol_structures IMPLEMENTATION.
+
+
+CLASS ZTESTCONTROL_STRUCTURES IMPLEMENTATION.
+
+
   METHOD if_oo_adt_classrun~main.
     DATA lv_number TYPE i VALUE 3.
 

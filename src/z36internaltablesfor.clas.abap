@@ -9,7 +9,10 @@ CLASS z36internaltablesfor DEFINITION
   PRIVATE SECTION.
 ENDCLASS.
 
-CLASS z36internaltablesfor IMPLEMENTATION.
+
+
+CLASS Z36INTERNALTABLESFOR IMPLEMENTATION.
+
 
   METHOD if_oo_adt_classrun~main.
     TYPES:BEGIN OF ty_flights,
@@ -59,5 +62,4 @@ CLASS z36internaltablesfor IMPLEMENTATION.
 
 
   ENDMETHOD.
-
 ENDCLASS.

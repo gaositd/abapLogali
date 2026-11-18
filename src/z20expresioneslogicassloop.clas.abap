@@ -9,7 +9,10 @@ CLASS z20expresioneslogicassloop DEFINITION
   PRIVATE SECTION.
 ENDCLASS.
 
-CLASS z20expresioneslogicassloop IMPLEMENTATION.
+
+
+CLASS Z20EXPRESIONESLOGICASSLOOP IMPLEMENTATION.
+
 
   METHOD if_oo_adt_classrun~main.
     TYPES:BEGIN OF lt_num,
@@ -41,5 +44,4 @@ CLASS z20expresioneslogicassloop IMPLEMENTATION.
     lv_total = lv_sum.
     out->write( |The total is { lv_total } | ).
   ENDMETHOD.
-
 ENDCLASS.

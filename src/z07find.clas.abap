@@ -11,7 +11,8 @@ ENDCLASS.
 
 
 
-CLASS z07find IMPLEMENTATION.
+CLASS Z07FIND IMPLEMENTATION.
+
 
     METHOD if_oo_adt_classrun~main.
         CONSTANTS: lc_name       TYPE String VALUE 'Ayde Cristina Gamez Meraz',
@@ -45,5 +46,4 @@ CLASS z07find IMPLEMENTATION.
 
 
     ENDMETHOD.
-
 ENDCLASS.

@@ -9,7 +9,10 @@ CLASS z30internaltablesinsertrecords DEFINITION
   PRIVATE SECTION.
 ENDCLASS.
 
-CLASS z30internaltablesinsertrecords IMPLEMENTATION.
+
+
+CLASS Z30INTERNALTABLESINSERTRECORDS IMPLEMENTATION.
+
 
   method if_oo_adt_classrun~main.
     DATA: it_employees  TYPE STANDARD TABLE OF zemploytableagch,
@@ -65,5 +68,4 @@ CLASS z30internaltablesinsertrecords IMPLEMENTATION.
     out->write( |\n| ).
     out->write( data = it_employees2 name = 'it_employees 2 - ' ).
   endmethod.
-
 ENDCLASS.

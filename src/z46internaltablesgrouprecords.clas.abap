@@ -9,7 +9,10 @@ CLASS z46internaltablesgrouprecords DEFINITION
   PRIVATE SECTION.
 ENDCLASS.
 
-CLASS z46internaltablesgrouprecords IMPLEMENTATION.
+
+
+CLASS Z46INTERNALTABLESGROUPRECORDS IMPLEMENTATION.
+
 
   METHOD if_oo_adt_classrun~main.
 
@@ -37,5 +40,4 @@ CLASS z46internaltablesgrouprecords IMPLEMENTATION.
     ENDLOOP.
 
   ENDMETHOD.
-
 ENDCLASS.

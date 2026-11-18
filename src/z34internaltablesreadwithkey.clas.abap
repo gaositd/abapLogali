@@ -9,7 +9,10 @@ CLASS z34internaltablesreadwithkey DEFINITION
   PRIVATE SECTION.
 ENDCLASS.
 
-CLASS z34internaltablesreadwithkey IMPLEMENTATION.
+
+
+CLASS Z34INTERNALTABLESREADWITHKEY IMPLEMENTATION.
+
 
   METHOD if_oo_adt_classrun~main.
     DATA it_flight_sort type SORTED TABLE OF /dmo/airport
@@ -43,5 +46,4 @@ CLASS z34internaltablesreadwithkey IMPLEMENTATION.
     out->write( data = wa_flight_sort2 name = 'wa_flight_sort 3' ).
 
   ENDMETHOD.
-
 ENDCLASS.

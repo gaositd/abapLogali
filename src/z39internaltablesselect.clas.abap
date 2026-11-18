@@ -9,7 +9,10 @@ CLASS z39internaltablesselect DEFINITION
   PRIVATE SECTION.
 ENDCLASS.
 
-CLASS z39internaltablesselect IMPLEMENTATION.
+
+
+CLASS Z39INTERNALTABLESSELECT IMPLEMENTATION.
+
 
   METHOD if_oo_adt_classrun~main.
     TYPES: BEGIN OF ty_flights_fields,
@@ -36,5 +39,4 @@ CLASS z39internaltablesselect IMPLEMENTATION.
     out->write( it_flights_fields ).
 
   ENDMETHOD.
-
 ENDCLASS.

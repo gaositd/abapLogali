@@ -9,7 +9,10 @@ CLASS z27structuresinclude DEFINITION
   PRIVATE SECTION.
 ENDCLASS.
 
-CLASS z27structuresinclude IMPLEMENTATION.
+
+
+CLASS Z27STRUCTURESINCLUDE IMPLEMENTATION.
+
 
   METHOD if_oo_adt_classrun~main.
     TYPES:BEGIN OF purchase_order_type,
@@ -65,5 +68,4 @@ CLASS z27structuresinclude IMPLEMENTATION.
 
     out->write( ls_invoice ).
   ENDMETHOD.
-
 ENDCLASS.

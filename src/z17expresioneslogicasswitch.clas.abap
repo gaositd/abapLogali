@@ -9,7 +9,10 @@ CLASS z17expresioneslogicasswitch DEFINITION
   PRIVATE SECTION.
 ENDCLASS.
 
-CLASS z17expresioneslogicasswitch IMPLEMENTATION.
+
+
+CLASS Z17EXPRESIONESLOGICASSWITCH IMPLEMENTATION.
+
 
   METHOD if_oo_adt_classrun~main.
     DO 7 TIMES.
@@ -25,5 +28,4 @@ CLASS z17expresioneslogicasswitch IMPLEMENTATION.
       out->write( lv_value ).
     ENDDO.
   ENDMETHOD.
-
 ENDCLASS.

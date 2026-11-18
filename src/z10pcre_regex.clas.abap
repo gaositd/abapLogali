@@ -11,7 +11,8 @@ ENDCLASS.
 
 
 
-CLASS z10pcre_regex IMPLEMENTATION.
+CLASS Z10PCRE_REGEX IMPLEMENTATION.
+
 
   METHOD if_oo_adt_classrun~main.
     "PCRE = Perl compatible Regular expressions
@@ -31,5 +32,4 @@ CLASS z10pcre_regex IMPLEMENTATION.
     REPLACE ALL OCCURRENCES OF PCRE '[^A-Za-z0-9]+' IN lv_tetx WITH '#'.
     out->write( |lv_text { lv_tetx }| ).
   ENDMETHOD.
-
 ENDCLASS.

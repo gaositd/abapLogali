@@ -9,7 +9,10 @@ CLASS z45internaltablesbase DEFINITION
   PRIVATE SECTION.
 ENDCLASS.
 
-CLASS z45internaltablesbase IMPLEMENTATION.
+
+
+CLASS Z45INTERNALTABLESBASE IMPLEMENTATION.
+
 
   METHOD if_oo_adt_classrun~main.
     data: ti_seats    TYPE TABLE of /dmo/flight,
@@ -46,5 +49,4 @@ CLASS z45internaltablesbase IMPLEMENTATION.
     out->write( data = ti_seats name = 'Seats table' ).
 
   ENDMETHOD.
-
 ENDCLASS.

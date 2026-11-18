@@ -9,7 +9,10 @@ CLASS zcl_lab_01_var_alvaro DEFINITION
   PRIVATE SECTION.
 ENDCLASS.
 
-CLASS zcl_lab_01_var_alvaro IMPLEMENTATION.
+
+
+CLASS ZCL_LAB_01_VAR_ALVARO IMPLEMENTATION.
+
 
     METHOD if_oo_adt_classrun~main.
         DATA: MV_PURCHASE_DATE TYPE D,
@@ -98,5 +101,4 @@ CLASS zcl_lab_01_var_alvaro IMPLEMENTATION.
         out->write( |Full Name: { v_customer-customer }| ).
         out->write( |Age:  { v_customer-age }| ).
     ENDMETHOD.
-
 ENDCLASS.

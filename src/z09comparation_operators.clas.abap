@@ -11,7 +11,8 @@ ENDCLASS.
 
 
 
-CLASS z09comparation_operators IMPLEMENTATION.
+CLASS Z09COMPARATION_OPERATORS IMPLEMENTATION.
+
 
     METHOD if_oo_adt_classrun~main.
         DATA: lv_match TYPE abap_boolean,
@@ -34,5 +35,4 @@ CLASS z09comparation_operators IMPLEMENTATION.
             out->write( |The text not contain the pattern "g" { lv_match }| ).
         ENDIF.
     ENDMETHOD.
-
 ENDCLASS.

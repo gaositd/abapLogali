@@ -9,7 +9,10 @@ CLASS z26structuresadddata DEFINITION
   PRIVATE SECTION.
 ENDCLASS.
 
-CLASS z26structuresadddata IMPLEMENTATION.
+
+
+CLASS Z26STRUCTURESADDDATA IMPLEMENTATION.
+
 
   METHOD if_oo_adt_classrun~main.
     DATA:BEGIN OF ls_emp_info,
@@ -82,5 +85,4 @@ CLASS z26structuresadddata IMPLEMENTATION.
     out->write( |\n| ).
     out->write( data = ls_flight2 name = 'Otra tabla' ).
   ENDMETHOD.
-
 ENDCLASS.

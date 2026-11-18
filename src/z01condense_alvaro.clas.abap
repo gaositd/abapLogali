@@ -11,7 +11,8 @@ ENDCLASS.
 
 
 
-CLASS z01condense_alvaro IMPLEMENTATION.
+CLASS Z01CONDENSE_ALVARO IMPLEMENTATION.
+
 
     METHOD if_oo_adt_classrun~main.
         Data: lv_string1 TYPE String VALUE 'Logali-Group-SAP-Academi',
@@ -40,5 +41,4 @@ CLASS z01condense_alvaro IMPLEMENTATION.
 
 
     ENDMETHOD.
-
 ENDCLASS.

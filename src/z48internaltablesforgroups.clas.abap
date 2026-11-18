@@ -9,7 +9,10 @@ CLASS z48internaltablesforgroups DEFINITION
   PRIVATE SECTION.
 ENDCLASS.
 
-CLASS z48internaltablesforgroups IMPLEMENTATION.
+
+
+CLASS Z48INTERNALTABLESFORGROUPS IMPLEMENTATION.
+
 
   METHOD if_oo_adt_classrun~main.
     SELECT from /dmo/flight
@@ -32,5 +35,4 @@ CLASS z48internaltablesforgroups IMPLEMENTATION.
     ).
 
   ENDMETHOD.
-
 ENDCLASS.

@@ -9,7 +9,10 @@ CLASS z33internaltablesreadwithindex DEFINITION
   PRIVATE SECTION.
 ENDCLASS.
 
-CLASS z33internaltablesreadwithindex IMPLEMENTATION.
+
+
+CLASS Z33INTERNALTABLESREADWITHINDEX IMPLEMENTATION.
+
 
   method if_oo_adt_classrun~main.
     select from /dmo/airport
@@ -91,5 +94,4 @@ CLASS z33internaltablesreadwithindex IMPLEMENTATION.
     out->write( data = ls_data2 name = 'ls_data2_default' ).
 
   endmethod.
-
 ENDCLASS.

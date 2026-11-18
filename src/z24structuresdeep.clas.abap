@@ -9,7 +9,10 @@ CLASS z24structuresdeep DEFINITION
   PRIVATE SECTION.
 ENDCLASS.
 
-CLASS z24structuresdeep IMPLEMENTATION.
+
+
+CLASS Z24STRUCTURESDEEP IMPLEMENTATION.
+
 
   METHOD if_oo_adt_classrun~main.
     TYPES:BEGIN OF lty_flights,
@@ -33,5 +36,4 @@ CLASS z24structuresdeep IMPLEMENTATION.
     out->write( data = ls_flight_info name = 'NO se' ).
 
   ENDMETHOD.
-
 ENDCLASS.

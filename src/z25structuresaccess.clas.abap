@@ -9,7 +9,10 @@ CLASS z25structuresaccess DEFINITION
   PRIVATE SECTION.
 ENDCLASS.
 
-CLASS z25structuresaccess IMPLEMENTATION.
+
+
+CLASS Z25STRUCTURESACCESS IMPLEMENTATION.
+
 
   METHOD if_oo_adt_classrun~main.
     TYPES:BEGIN OF lty_flights,
@@ -32,5 +35,4 @@ CLASS z25structuresaccess IMPLEMENTATION.
 
     out->write( data = ls_flight_info name = 'Data:' ).
   ENDMETHOD.
-
 ENDCLASS.

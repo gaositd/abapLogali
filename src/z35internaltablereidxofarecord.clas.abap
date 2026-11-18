@@ -9,7 +9,11 @@ CLASS z35internaltablereidxofarecord DEFINITION
   PRIVATE SECTION.
 ENDCLASS.
 
-CLASS z35internaltablereidxofarecord IMPLEMENTATION.
+
+
+CLASS Z35INTERNALTABLEREIDXOFARECORD IMPLEMENTATION.
+
+
   METHOD if_oo_adt_classrun~main.
     select from /dmo/flight
       fields *

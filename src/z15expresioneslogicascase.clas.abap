@@ -9,7 +9,10 @@ CLASS z15expresioneslogicascase DEFINITION
   PRIVATE SECTION.
 ENDCLASS.
 
-CLASS z15expresioneslogicascase IMPLEMENTATION.
+
+
+CLASS Z15EXPRESIONESLOGICASCASE IMPLEMENTATION.
+
 
   METHOD if_oo_adt_classrun~main.
     DATA: lv_result TYPE i.
@@ -37,5 +40,4 @@ CLASS z15expresioneslogicascase IMPLEMENTATION.
     ENDIF.
 
   ENDMETHOD.
-
 ENDCLASS.

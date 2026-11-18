@@ -9,7 +9,10 @@ CLASS z19expresioneslogicasswhile DEFINITION
   PRIVATE SECTION.
 ENDCLASS.
 
-CLASS z19expresioneslogicasswhile IMPLEMENTATION.
+
+
+CLASS Z19EXPRESIONESLOGICASSWHILE IMPLEMENTATION.
+
 
   METHOD if_oo_adt_classrun~main.
     data(lv_bool) = abap_true.

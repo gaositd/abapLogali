@@ -11,7 +11,9 @@ ENDCLASS.
 
 
 
-CLASS zteststring IMPLEMENTATION.
+CLASS ZTESTSTRING IMPLEMENTATION.
+
+
   METHOD if_oo_adt_classrun~main.
     DATA: lv_char   TYPE c LENGTH 10 VALUE '     CLOUD',
           lv_result TYPE  string VALUE '1234567890',

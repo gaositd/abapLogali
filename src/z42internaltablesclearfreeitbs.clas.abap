@@ -9,7 +9,10 @@ CLASS z42internaltablesclearfreeitbs DEFINITION
   PRIVATE SECTION.
 ENDCLASS.
 
-CLASS z42internaltablesclearfreeitbs IMPLEMENTATION.
+
+
+CLASS Z42INTERNALTABLESCLEARFREEITBS IMPLEMENTATION.
+
 
   METHOD if_oo_adt_classrun~main.
 
@@ -35,5 +38,4 @@ CLASS z42internaltablesclearfreeitbs IMPLEMENTATION.
 
 
   ENDMETHOD.
-
 ENDCLASS.

@@ -9,7 +9,10 @@ CLASS z49internaltablesranges DEFINITION
   PRIVATE SECTION.
 ENDCLASS.
 
-CLASS z49internaltablesranges IMPLEMENTATION.
+
+
+CLASS Z49INTERNALTABLESRANGES IMPLEMENTATION.
+
 
   METHOD if_oo_adt_classrun~main.
     TYPES ty_price TYPE RANGE OF /dmo/flight_price.
@@ -29,5 +32,4 @@ CLASS z49internaltablesranges IMPLEMENTATION.
     out->write( data = ti_price name =  'ti_price' ).
     out->write( data = ti_flights name =  'ti_flights' ).
   ENDMETHOD.
-
 ENDCLASS.

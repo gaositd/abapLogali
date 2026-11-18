@@ -11,7 +11,8 @@ ENDCLASS.
 
 
 
-CLASS z13scape IMPLEMENTATION.
+CLASS Z13SCAPE IMPLEMENTATION.
+
 
     METHOD if_oo_adt_classrun~main.
         CONSTANTS cl_header TYPE String VALUE 'https://'.
@@ -40,5 +41,4 @@ CLASS z13scape IMPLEMENTATION.
         out->write( lv_template_string ).
         out->write( |Final change, template string { lv_template_string }| ).
     ENDMETHOD.
-
 ENDCLASS.

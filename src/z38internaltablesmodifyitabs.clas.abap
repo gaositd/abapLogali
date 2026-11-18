@@ -9,7 +9,10 @@ CLASS z38internaltablesmodifyitabs DEFINITION
   PRIVATE SECTION.
 ENDCLASS.
 
-CLASS z38internaltablesmodifyitabs IMPLEMENTATION.
+
+
+CLASS Z38INTERNALTABLESMODIFYITABS IMPLEMENTATION.
+
 
   METHOD if_oo_adt_classrun~main.
     DATA: it_flights TYPE STANDARD TABLE OF /dmo/flight.
@@ -48,5 +51,4 @@ CLASS z38internaltablesmodifyitabs IMPLEMENTATION.
     out->write( data = it_flights name = 'after modify' ).
 
   ENDMETHOD.
-
 ENDCLASS.

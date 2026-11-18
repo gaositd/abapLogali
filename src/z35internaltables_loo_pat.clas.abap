@@ -9,7 +9,10 @@ CLASS z35internaltables_loo_pat DEFINITION
   PRIVATE SECTION.
 ENDCLASS.
 
-CLASS z35internaltables_loo_pat IMPLEMENTATION.
+
+
+CLASS Z35INTERNALTABLES_LOO_PAT IMPLEMENTATION.
+
 
   METHOD if_oo_adt_classrun~main.
     DATA: contador TYPE i VALUE 0.
@@ -54,5 +57,4 @@ CLASS z35internaltables_loo_pat IMPLEMENTATION.
     ENDLOOP.
 
   ENDMETHOD.
-  .
 ENDCLASS.

@@ -11,7 +11,8 @@ ENDCLASS.
 
 
 
-CLASS zcl_lab_04_message_alvaro IMPLEMENTATION.
+CLASS ZCL_LAB_04_MESSAGE_ALVARO IMPLEMENTATION.
+
 
   METHOD if_oo_adt_classrun~main.
     DATA: text1 TYPE String.
@@ -111,5 +112,4 @@ CLASS zcl_lab_04_message_alvaro IMPLEMENTATION.
     out->write( |Variable with condense function   { lv_string2 } | ).
 
   ENDMETHOD.
-
 ENDCLASS.

@@ -9,7 +9,10 @@ CLASS z44internaltableslet DEFINITION
   PRIVATE SECTION.
 ENDCLASS.
 
-CLASS z44internaltableslet IMPLEMENTATION.
+
+
+CLASS Z44INTERNALTABLESLET IMPLEMENTATION.
+
 
   METHOD if_oo_adt_classrun~main.
     data: totalRows TYPE i VALUE 0.
@@ -41,5 +44,4 @@ CLASS z44internaltableslet IMPLEMENTATION.
     ENDLOOP.
     out->write( data = totalrows name = '\nTotal rows' ).
   ENDMETHOD.
-
 ENDCLASS.

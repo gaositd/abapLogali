@@ -9,7 +9,10 @@ CLASS z40internaltablessorttables DEFINITION
   PRIVATE SECTION.
 ENDCLASS.
 
-CLASS z40internaltablessorttables IMPLEMENTATION.
+
+
+CLASS Z40INTERNALTABLESSORTTABLES IMPLEMENTATION.
+
 
   METHOD if_oo_adt_classrun~main.
     DATA: it_flights TYPE STANDARD TABLE OF /dmo/flight.
@@ -43,5 +46,4 @@ CLASS z40internaltablessorttables IMPLEMENTATION.
     out->write( data = it_flights name = 'After sorted descending, use many fields ascending and descendig' ).
 
   ENDMETHOD.
-
 ENDCLASS.

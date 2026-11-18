@@ -9,7 +9,10 @@ CLASS z35internaltablesreadchkrecord DEFINITION
   PRIVATE SECTION.
 ENDCLASS.
 
-CLASS z35internaltablesreadchkrecord IMPLEMENTATION.
+
+
+CLASS Z35INTERNALTABLESREADCHKRECORD IMPLEMENTATION.
+
 
   METHOD if_oo_adt_classrun~main.
     data: it_airports type STANDARD TABLE OF /dmo/airport.
@@ -48,5 +51,4 @@ CLASS z35internaltablesreadchkrecord IMPLEMENTATION.
     endif.
 
   ENDMETHOD.
-
 ENDCLASS.

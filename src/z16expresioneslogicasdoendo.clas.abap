@@ -9,7 +9,10 @@ CLASS z16expresioneslogicasdoendo DEFINITION
   PRIVATE SECTION.
 ENDCLASS.
 
-CLASS z16expresioneslogicasdoendo IMPLEMENTATION.
+
+
+CLASS Z16EXPRESIONESLOGICASDOENDO IMPLEMENTATION.
+
 
   METHOD if_oo_adt_classrun~main.
     DATA(lv_num) = 0.
@@ -64,5 +67,4 @@ CLASS z16expresioneslogicasdoendo IMPLEMENTATION.
 
 
   ENDMETHOD.
-
 ENDCLASS.

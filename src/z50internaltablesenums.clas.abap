@@ -9,7 +9,10 @@ CLASS z50internaltablesenums DEFINITION
   PRIVATE SECTION.
 ENDCLASS.
 
-CLASS z50internaltablesenums IMPLEMENTATION.
+
+
+CLASS Z50INTERNALTABLESENUMS IMPLEMENTATION.
+
 
   METHOD if_oo_adt_classrun~main.
     TYPES: BEGIN OF ENUM tye_colors,
@@ -60,5 +63,4 @@ CLASS z50internaltablesenums IMPLEMENTATION.
     out->write( result ).
 
   ENDMETHOD.
-
 ENDCLASS.

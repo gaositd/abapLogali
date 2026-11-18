@@ -9,7 +9,10 @@ CLASS z37internaltablesnestedfor DEFINITION
   PRIVATE SECTION.
 ENDCLASS.
 
-CLASS z37internaltablesnestedfor IMPLEMENTATION.
+
+
+CLASS Z37INTERNALTABLESNESTEDFOR IMPLEMENTATION.
+
 
   METHOD if_oo_adt_classrun~main.
     TYPES:BEGIN OF ty_flights,
@@ -49,5 +52,4 @@ CLASS z37internaltablesnestedfor IMPLEMENTATION.
     out->write( |Total of records { lines( it_flights ) } | ).
     out->write( it_flights ).
   ENDMETHOD.
-
 ENDCLASS.

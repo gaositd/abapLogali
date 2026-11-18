@@ -9,7 +9,10 @@ CLASS z22structures DEFINITION
   PRIVATE SECTION.
 ENDCLASS.
 
-CLASS z22structures IMPLEMENTATION.
+
+
+CLASS Z22STRUCTURES IMPLEMENTATION.
+
 
   METHOD if_oo_adt_classrun~main.
     DATA: ls_flight TYPE /dmo/flight.
@@ -34,5 +37,4 @@ CLASS z22structures IMPLEMENTATION.
     ).
 
   ENDMETHOD.
-
 ENDCLASS.

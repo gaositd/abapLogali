@@ -9,7 +9,10 @@ CLASS z28internaltablesclaves DEFINITION
   PRIVATE SECTION.
 ENDCLASS.
 
-CLASS z28internaltablesclaves IMPLEMENTATION.
+
+
+CLASS Z28INTERNALTABLESCLAVES IMPLEMENTATION.
+
 
   METHOD if_oo_adt_classrun~main.
     "Estas dos son de claraciones de tablas internas estandar
@@ -22,5 +25,4 @@ CLASS z28internaltablesclaves IMPLEMENTATION.
           lt_flight_hash TYPE HASHED TABLE OF /dmo/flight WITH UNIQUE KEY carrier_id.
 
   ENDMETHOD.
-
 ENDCLASS.

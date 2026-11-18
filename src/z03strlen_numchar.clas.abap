@@ -11,7 +11,8 @@ ENDCLASS.
 
 
 
-CLASS z03strlen_numchar IMPLEMENTATION.
+CLASS Z03STRLEN_NUMCHAR IMPLEMENTATION.
+
 
     METHOD if_oo_adt_classrun~main.
         CONSTANTS: cl_string TYPE String VALUE 'Alvaro Gamez Chavez   '.
@@ -34,5 +35,4 @@ CLASS z03strlen_numchar IMPLEMENTATION.
          out->write( |MIX   Case.- = { to_mixed( val = cl_string ) }| ).
 
     ENDMETHOD.
-
 ENDCLASS.

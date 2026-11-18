@@ -11,7 +11,8 @@ ENDCLASS.
 
 
 
-CLASS z02shift_alvaro IMPLEMENTATION.
+CLASS Z02SHIFT_ALVARO IMPLEMENTATION.
+
 
     METHOD if_oo_adt_classrun~main.
 
@@ -62,5 +63,4 @@ CLASS z02shift_alvaro IMPLEMENTATION.
         out->write( |Initial value7 { gv_initial }| ).
 
     ENDMETHOD.
-
 ENDCLASS.

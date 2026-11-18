@@ -9,7 +9,10 @@ CLASS z41internaltablesdeleteitabs DEFINITION
   PRIVATE SECTION.
 ENDCLASS.
 
-CLASS z41internaltablesdeleteitabs IMPLEMENTATION.
+
+
+CLASS Z41INTERNALTABLESDELETEITABS IMPLEMENTATION.
+
 
   METHOD if_oo_adt_classrun~main.
     DATA: it_airport TYPE STANDARD TABLE OF /dmo/airport,
@@ -59,5 +62,4 @@ CLASS z41internaltablesdeleteitabs IMPLEMENTATION.
     ENDIF.
 
   ENDMETHOD.
-
 ENDCLASS.

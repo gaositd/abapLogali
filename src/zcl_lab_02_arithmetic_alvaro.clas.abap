@@ -10,7 +10,10 @@ CLASS zcl_lab_02_arithmetic_alvaro DEFINITION
 ENDCLASS.
 
 
-CLASS zcl_lab_02_arithmetic_alvaro IMPLEMENTATION.
+
+CLASS ZCL_LAB_02_ARITHMETIC_ALVARO IMPLEMENTATION.
+
+
     METHOD if_oo_adt_classrun~main.
         DATA: LV_BASE_RATE TYPE I VALUE 20,
               LV_CORP_AREA_RATE TYPE I  value 10,

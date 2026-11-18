@@ -11,7 +11,8 @@ ENDCLASS.
 
 
 
-CLASS z06substring IMPLEMENTATION.
+CLASS Z06SUBSTRING IMPLEMENTATION.
+
 
     METHOD if_oo_adt_classrun~main.
     DATA: vl_string1 TYPE String VALUE 'Ayde Cristina Gamez Meraz',
@@ -37,5 +38,4 @@ CLASS z06substring IMPLEMENTATION.
 
 
     ENDMETHOD.
-
 ENDCLASS.

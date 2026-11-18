@@ -11,7 +11,8 @@ ENDCLASS.
 
 
 
-CLASS z11regular_expresions IMPLEMENTATION.
+CLASS Z11REGULAR_EXPRESIONS IMPLEMENTATION.
+
 
     METHOD if_oo_adt_classrun~main.
         CONSTANTS: cl_mom TYPE String VALUE 'Daniela Iveth Meraz Silva',
@@ -34,5 +35,4 @@ CLASS z11regular_expresions IMPLEMENTATION.
               out->write( |Using the old form { cl_weding_date } change for { vl_text2 }| ).
 
     ENDMETHOD.
-
 ENDCLASS.

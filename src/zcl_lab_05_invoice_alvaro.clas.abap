@@ -11,7 +11,8 @@ ENDCLASS.
 
 
 
-CLASS zcl_lab_05_invoice_alvaro IMPLEMENTATION.
+CLASS ZCL_LAB_05_INVOICE_ALVARO IMPLEMENTATION.
+
 
   METHOD if_oo_adt_classrun~main.
 
@@ -74,5 +75,4 @@ CLASS zcl_lab_05_invoice_alvaro IMPLEMENTATION.
     out->write( |Insert text invoice = { mv_translate_invoice } to client| ).
 
   ENDMETHOD.
-
 ENDCLASS.

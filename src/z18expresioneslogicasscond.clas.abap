@@ -9,7 +9,10 @@ CLASS z18expresioneslogicasscond DEFINITION
   PRIVATE SECTION.
 ENDCLASS.
 
-CLASS z18expresioneslogicasscond IMPLEMENTATION.
+
+
+CLASS Z18EXPRESIONESLOGICASSCOND IMPLEMENTATION.
+
 
   METHOD if_oo_adt_classrun~main.
     DATA(vl_get_time) = cl_abap_context_info=>get_system_time(  ).
@@ -21,5 +24,4 @@ CLASS z18expresioneslogicasscond IMPLEMENTATION.
     out->write( lv_time ).
 
   ENDMETHOD.
-
 ENDCLASS.

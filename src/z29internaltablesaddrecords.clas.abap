@@ -9,7 +9,10 @@ CLASS z29internaltablesaddrecords DEFINITION
   PRIVATE SECTION.
 ENDCLASS.
 
-CLASS z29internaltablesaddrecords IMPLEMENTATION.
+
+
+CLASS Z29INTERNALTABLESADDRECORDS IMPLEMENTATION.
+
 
   METHOD if_oo_adt_classrun~main.
     DATA: it_employees TYPE STANDARD TABLE OF zemploytableagch,
@@ -32,5 +35,4 @@ CLASS z29internaltablesaddrecords IMPLEMENTATION.
     out->write( |\n| ).
     out->write( it_employees ).
   ENDMETHOD.
-
 ENDCLASS.

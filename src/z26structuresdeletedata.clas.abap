@@ -9,7 +9,10 @@ CLASS z26structuresdeletedata DEFINITION
   PRIVATE SECTION.
 ENDCLASS.
 
-CLASS z26structuresdeletedata IMPLEMENTATION.
+
+
+CLASS Z26STRUCTURESDELETEDATA IMPLEMENTATION.
+
 
   METHOD if_oo_adt_classrun~main.
     select single
@@ -25,5 +28,4 @@ CLASS z26structuresdeletedata IMPLEMENTATION.
     out->write( data = ls_flight name = 'Flight data' ).
 
   ENDMETHOD.
-
 ENDCLASS.

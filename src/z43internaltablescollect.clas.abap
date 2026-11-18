@@ -9,7 +9,10 @@ CLASS z43internaltablescollect DEFINITION
   PRIVATE SECTION.
 ENDCLASS.
 
-CLASS z43internaltablescollect IMPLEMENTATION.
+
+
+CLASS Z43INTERNALTABLESCOLLECT IMPLEMENTATION.
+
 
   METHOD if_oo_adt_classrun~main.
 
@@ -41,5 +44,4 @@ CLASS z43internaltablescollect IMPLEMENTATION.
 
 
   ENDMETHOD.
-
 ENDCLASS.

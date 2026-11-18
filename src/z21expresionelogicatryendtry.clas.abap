@@ -9,7 +9,10 @@ CLASS z21expresionelogicatryendtry DEFINITION
   PRIVATE SECTION.
 ENDCLASS.
 
-CLASS z21expresionelogicatryendtry IMPLEMENTATION.
+
+
+CLASS Z21EXPRESIONELOGICATRYENDTRY IMPLEMENTATION.
+
 
   METHOD if_oo_adt_classrun~main.
     DATA: lv_num1 TYPE i VALUE 10,
@@ -28,5 +31,4 @@ CLASS z21expresionelogicatryendtry IMPLEMENTATION.
     out->write( lv_res ).
 
   ENDMETHOD.
-
 ENDCLASS.

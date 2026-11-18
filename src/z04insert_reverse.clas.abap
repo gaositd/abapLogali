@@ -11,7 +11,8 @@ ENDCLASS.
 
 
 
-CLASS z04insert_reverse IMPLEMENTATION.
+CLASS Z04INSERT_REVERSE IMPLEMENTATION.
+
 
     METHOD if_oo_adt_classrun~main.
         CONSTANTS: cl_string_name TYPE String VALUE 'AydeCristina',
@@ -27,5 +28,4 @@ CLASS z04insert_reverse IMPLEMENTATION.
         vl_string_reverse = reverse( cl_string_last ).
         out->write( |Reverse { vl_string_reverse }| ).
     ENDMETHOD.
-
 ENDCLASS.

@@ -9,7 +9,10 @@ CLASS z14expresioneslogicasifendif DEFINITION
   PRIVATE SECTION.
 ENDCLASS.
 
-CLASS z14expresioneslogicasifendif IMPLEMENTATION.
+
+
+CLASS Z14EXPRESIONESLOGICASIFENDIF IMPLEMENTATION.
+
 
   METHOD if_oo_adt_classrun~main.
     DATA: lv_char  TYPE c LENGTH 1 VALUE 'C',
@@ -61,5 +64,4 @@ CLASS z14expresioneslogicasifendif IMPLEMENTATION.
     ENDIF.
 
   ENDMETHOD.
-
 ENDCLASS.

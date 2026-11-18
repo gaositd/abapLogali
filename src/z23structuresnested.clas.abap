@@ -9,7 +9,10 @@ CLASS z23structuresnested DEFINITION
   PRIVATE SECTION.
 ENDCLASS.
 
-CLASS z23structuresnested IMPLEMENTATION.
+
+
+CLASS Z23STRUCTURESNESTED IMPLEMENTATION.
+
 
   METHOD if_oo_adt_classrun~main.
 
@@ -39,5 +42,4 @@ CLASS z23structuresnested IMPLEMENTATION.
 
          out->write( data = ls_emp_info name = 'Employee Info' ).
   ENDMETHOD.
-
 ENDCLASS.

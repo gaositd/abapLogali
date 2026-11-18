@@ -9,7 +9,10 @@ CLASS z47internaltablesgroupbykey DEFINITION
   PRIVATE SECTION.
 ENDCLASS.
 
-CLASS z47internaltablesgroupbykey IMPLEMENTATION.
+
+
+CLASS Z47INTERNALTABLESGROUPBYKEY IMPLEMENTATION.
+
 
   METHOD if_oo_adt_classrun~main.
     SELECT FROM /dmo/flight
@@ -43,5 +46,4 @@ CLASS z47internaltablesgroupbykey IMPLEMENTATION.
     ENDLOOP.
 
   ENDMETHOD.
-
 ENDCLASS.

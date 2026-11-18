@@ -11,7 +11,9 @@ ENDCLASS.
 
 
 
-CLASS z05overlay IMPLEMENTATION.
+CLASS Z05OVERLAY IMPLEMENTATION.
+
+
     METHOD if_oo_adt_classrun~main.
     data: lv_company TYPE String VALUE '-------------------------->Gaos Software',
           lv_name TYPE String VALUE 'Ayde Cristina Gamez Meraz                  ',

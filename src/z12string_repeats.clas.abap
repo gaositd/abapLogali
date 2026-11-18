@@ -11,7 +11,8 @@ ENDCLASS.
 
 
 
-CLASS z12string_repeats IMPLEMENTATION.
+CLASS Z12STRING_REPEATS IMPLEMENTATION.
+
 
   METHOD if_oo_adt_classrun~main.
     CONSTANTS: cl_wife TYPE String VALUE ` Daniela Iveth Meraz Silva`.
@@ -30,5 +31,4 @@ CLASS z12string_repeats IMPLEMENTATION.
     ENDTRY.
 
   ENDMETHOD.
-
 ENDCLASS.

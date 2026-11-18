@@ -11,7 +11,8 @@ ENDCLASS.
 
 
 
-CLASS z08replace IMPLEMENTATION.
+CLASS Z08REPLACE IMPLEMENTATION.
+
 
     METHOD if_oo_adt_classrun~main.
            CONSTANTS: lc_replace TYPE String VALUE 'Alvaro-Gamez-Chavez'.
@@ -44,5 +45,4 @@ CLASS z08replace IMPLEMENTATION.
            out->write( |new value = { lv_replace }| ).
 
     ENDMETHOD.
-
 ENDCLASS.

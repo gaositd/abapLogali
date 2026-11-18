@@ -9,7 +9,11 @@ CLASS zcl_lab_09_structure_alvaro DEFINITION
   PRIVATE SECTION.
 ENDCLASS.
 
-CLASS zcl_lab_09_structure_alvaro IMPLEMENTATION.
+
+
+CLASS ZCL_LAB_09_STRUCTURE_ALVARO IMPLEMENTATION.
+
+
   METHOD if_oo_adt_classrun~main.
   TYPES: BEGIN OF ty_flights,
           idUser     TYPE C LENGTH 40,

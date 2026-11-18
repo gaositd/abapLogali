@@ -27,7 +27,11 @@ CLASS zcl_lab_06_condition_alvaro DEFINITION
 
 ENDCLASS.
 
-CLASS zcl_lab_06_condition_alvaro IMPLEMENTATION.
+
+
+CLASS ZCL_LAB_06_CONDITION_ALVARO IMPLEMENTATION.
+
+
   METHOD if_oo_adt_classrun~main.
     DATA: lv_conditional1  TYPE i VALUE 8,
           lv_conditional2  TYPE String VALUE 'SAPOSS',
@@ -95,6 +99,7 @@ CLASS zcl_lab_06_condition_alvaro IMPLEMENTATION.
 
   ENDMETHOD.
 
+
   METHOD usingif.
 
     IF data_if = 7.
@@ -104,6 +109,7 @@ CLASS zcl_lab_06_condition_alvaro IMPLEMENTATION.
     ENDIF.
 
   ENDMETHOD.
+
 
   METHOD usingcase.
 
@@ -118,6 +124,7 @@ CLASS zcl_lab_06_condition_alvaro IMPLEMENTATION.
 
   ENDMETHOD.
 
+
   METHOD usingdo.
 
     DO lv_times TIMES.
@@ -125,6 +132,7 @@ CLASS zcl_lab_06_condition_alvaro IMPLEMENTATION.
     ENDDO.
 
   ENDMETHOD.
+
 
   METHOD usingloop.
 
@@ -160,6 +168,7 @@ CLASS zcl_lab_06_condition_alvaro IMPLEMENTATION.
 
   ENDMETHOD.
 
+
   METHOD usingtry.
     DATA: lv_exception TYPE f VALUE 5,
           lv_counter   TYPE i VALUE 5,
@@ -179,6 +188,4 @@ CLASS zcl_lab_06_condition_alvaro IMPLEMENTATION.
 
     ENDDO.
   ENDMETHOD.
-
 ENDCLASS.
-

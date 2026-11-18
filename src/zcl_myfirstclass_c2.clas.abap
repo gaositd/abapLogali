@@ -11,7 +11,8 @@ ENDCLASS.
 
 
 
-CLASS zcl_myfirstclass_c2 IMPLEMENTATION.
+CLASS ZCL_MYFIRSTCLASS_C2 IMPLEMENTATION.
+
 
     METHOD if_oo_adt_classrun~main.
     "Variables String"

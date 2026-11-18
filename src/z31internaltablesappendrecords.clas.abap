@@ -9,7 +9,10 @@ CLASS z31internaltablesappendrecords DEFINITION
   PRIVATE SECTION.
 ENDCLASS.
 
-CLASS z31internaltablesappendrecords IMPLEMENTATION.
+
+
+CLASS Z31INTERNALTABLESAPPENDRECORDS IMPLEMENTATION.
+
 
   METHOD if_oo_adt_classrun~main.
     DATA: it_employees  TYPE STANDARD TABLE OF zemploytableagch,

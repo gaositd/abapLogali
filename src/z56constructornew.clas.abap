@@ -1,4 +1,4 @@
-CLASS z55constructornew DEFINITION
+CLASS z56constructornew DEFINITION
   PUBLIC
   FINAL
   CREATE PUBLIC .
@@ -13,7 +13,7 @@ CLASS z55constructornew DEFINITION
   PRIVATE SECTION.
 ENDCLASS.
 
-CLASS z55constructornew IMPLEMENTATION.
+CLASS z56constructornew IMPLEMENTATION.
 
   METHOD m_constructor.
     vg_name = iv_name.

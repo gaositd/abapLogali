@@ -3,9 +3,9 @@
  <asx:abap xmlns:asx="http://www.sap.com/abapxml" version="1.0">
   <asx:values>
    <VSEOCLASS>
-    <CLSNAME>Z52CONSTRUCTORCORREBASEMAP</CLSNAME>
+    <CLSNAME>Z52INTERNALTABLESENUMS</CLSNAME>
     <LANGU>E</LANGU>
-    <DESCRIPT>constructor corresponding, Base, Mapping</DESCRIPT>
+    <DESCRIPT>Clase sobre tablas internas, enums, no les encuentro sentido</DESCRIPT>
     <STATE>1</STATE>
     <CLSCCINCL>X</CLSCCINCL>
     <FIXPT>X</FIXPT>

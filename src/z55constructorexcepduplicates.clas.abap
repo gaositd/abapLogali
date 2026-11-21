@@ -1,4 +1,4 @@
-CLASS z53constructorexcepduplicates DEFINITION
+CLASS z55constructorexcepduplicates DEFINITION
   PUBLIC
   FINAL
   CREATE PUBLIC .
@@ -9,7 +9,7 @@ CLASS z53constructorexcepduplicates DEFINITION
   PRIVATE SECTION.
 ENDCLASS.
 
-CLASS z53constructorexcepduplicates IMPLEMENTATION.
+CLASS z55constructorexcepduplicates IMPLEMENTATION.
 
   METHOD if_oo_adt_classrun~main.
     TYPES: BEGIN OF ty_employee,

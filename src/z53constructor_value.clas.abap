@@ -1,4 +1,4 @@
-CLASS z51constructor_value DEFINITION
+CLASS z53constructor_value DEFINITION
   PUBLIC
   FINAL
   CREATE PUBLIC .
@@ -9,7 +9,7 @@ CLASS z51constructor_value DEFINITION
   PRIVATE SECTION.
 ENDCLASS.
 
-CLASS z51constructor_value IMPLEMENTATION.
+CLASS z53constructor_value IMPLEMENTATION.
 
   METHOD if_oo_adt_classrun~main.
     DATA:BEGIN OF ti_empData,

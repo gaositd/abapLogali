@@ -3,9 +3,9 @@
  <asx:abap xmlns:asx="http://www.sap.com/abapxml" version="1.0">
   <asx:values>
    <VSEOCLASS>
-    <CLSNAME>Z51CONSTRUCTOR_VALUE</CLSNAME>
+    <CLSNAME>Z51INTERNALTABLESRANGES</CLSNAME>
     <LANGU>E</LANGU>
-    <DESCRIPT>constructor VALUE</DESCRIPT>
+    <DESCRIPT>Clase sobre tablas internas, rangos</DESCRIPT>
     <STATE>1</STATE>
     <CLSCCINCL>X</CLSCCINCL>
     <FIXPT>X</FIXPT>

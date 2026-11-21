@@ -33,7 +33,16 @@ CLASS zcl_lab_07_tables_alvaro IMPLEMENTATION.
             connection_id TYPE /dmo/connection_id,
             seats         TYPE /dmo/plane_seats_occupied,
             bookings      TYPE /dmo/flight_price,
-          END OF ty_seats.
+          END OF ty_seats,
+          ty_range        TYPE RANGE OF /dmo/flight-seats_occupied.
+    TYPES: BEGIN OF ENUM MTY_CURRENCY BASE TYPE waers,
+            c_initial VALUE is initial,
+            c_dollar  VALUE 'USD',
+            c_euro    VALUE 'EUR',
+            c_pesomxn VALUE 'MXN',
+            c_pesocol VALUE 'COP',
+          END OF enum MTY_CURRENCY.
+
     DATA: mt_employees    TYPE STANDARD TABLE OF ty_employee,
           MT_EMPLOYEES_2  TYPE STANDARD TABLE OF ty_employee,
           MT_SPFL         TYPE STANDARD TABLE OF /dmo/connection,
@@ -54,7 +63,8 @@ CLASS zcl_lab_07_tables_alvaro IMPLEMENTATION.
           wa_seats      type ty_seats,
           wa_flight     TYPE /dmo/flight.
 
-    DATA: num TYPE i.
+    DATA: num TYPE i,
+          currencyEnum TYPE mty_currency.
 
     mt_employees = VALUE #(
       (
@@ -309,6 +319,21 @@ CLASS zcl_lab_07_tables_alvaro IMPLEMENTATION.
 
       ENDLOOP.
 
+      DATA(ti_price) = VALUE ty_range(
+        ( sign    = 'I'
+        option  = 'BT'
+        low     = '200'
+        high    = '1400' )
+      ).
+      CLEAR mt_flights_type.
+      SELECT FROM /dmo/flight
+        FIELDS *
+      WHERE price in @ti_price
+      into TABLE @mt_flights_type.
+      out->write( data = mt_flights_type name = 'mt_flights_type X' ).
+
+      currencyEnum = c_pesomxn.
+      out->write( data = currencyEnum name = 'currencyEnum' ).
   ENDMETHOD.
 
 ENDCLASS.

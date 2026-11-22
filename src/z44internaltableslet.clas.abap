@@ -42,6 +42,6 @@ CLASS Z44INTERNALTABLESLET IMPLEMENTATION.
       ENDIF.
 
     ENDLOOP.
-    out->write( data = totalrows name = '\nTotal rows' ).
+    out->write( data = totalrows name = |\nTotal rows| ).
   ENDMETHOD.
 ENDCLASS.

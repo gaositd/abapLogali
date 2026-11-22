@@ -23,7 +23,6 @@ CLASS z58constructorexact IMPLEMENTATION.
             out->write( data = vl_int2_value name = 'vl_int2_value' ).
             out->write( data = vl_text_value name = 'vl_int3_value' ).
 
-
           CATCH cx_sy_conversion_error INTO DATA(vl_error).
             out->write( |Error convertion { vl_error->get_text(  ) }| ).
           endtry.

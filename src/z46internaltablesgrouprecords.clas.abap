@@ -36,7 +36,7 @@ CLASS Z46INTERNALTABLESGROUPRECORDS IMPLEMENTATION.
       ENDLOOP.
 
       out->write( data = <fs_flight> name = '<fs_flight>' ).
-      out->write( data = it_members name = 'it_members'  ).
+      out->write( data = it_members name = 'it_members' ).
     ENDLOOP.
 
   ENDMETHOD.

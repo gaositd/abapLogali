@@ -22,8 +22,12 @@ CLASS ztestinternaltables IMPLEMENTATION.
             fechaa TYPE D,
           END OF ty_employee.
     DATA: mt_employees    TYPE STANDARD TABLE OF ty_employee,
-          MT_EMPLOYEES_2  TYPE STANDARD TABLE OF ty_employee.
-    DATA: ms_employee TYPE ty_employee.
+          MT_EMPLOYEES_2  TYPE STANDARD TABLE OF ty_employee,
+          MT_SPFL         TYPE STANDARD TABLE OF /dmo/connection.
+
+    DATA: ms_employee   TYPE ty_employee,
+          MS_SPFLI      TYPE /dmo/connection,
+          MS_SPFLI_2    TYPE /dmo/connection.
 
     mt_employees = VALUE #(
       (
@@ -76,20 +80,15 @@ CLASS ztestinternaltables IMPLEMENTATION.
 
     APPEND LINES OF mt_employees FROM 2 to 3 to mt_employees_2.
 
-    out->write(
-      data = mt_employees
-      name = 'ms_employee 1'
-    ).
+    SELECT FROM /dmo/connection
+      FIELDS *
+    into TABLE @mt_spfl.
 
-    out->write(
-      data = mt_employees
-      name = 'ms_employee 1'
-    ).
-
-    out->write(
-      data = mt_employees_2
-      name = 'ms_employee_2'
-    ).
+    out->write( data = mt_employees name = 'ms_employee 1' ).
+    out->write( data = mt_employees name = 'ms_employee 1' ).
+    out->write( data = mt_employees_2 name = 'ms_employee_2' ).
+    out->write( data = mt_employees_2 name = 'ms_employee_2' ).
+    out->write( data = mt_spfl name = |(mt_spfl) total of records = ms_employee_2 { lines( mt_spfl ) } | ).
 
   ENDMETHOD.
 

@@ -34,7 +34,8 @@ CLASS z62field_symbolsconcept IMPLEMENTATION.
       <fs_ti_employee>-lastname = 'Gamez Meraz'.
     ENDLOOP.
     out->write( data = ti_employees name = 'Table (After fileds symbols)'  ).
-
+    UNASSIGN: <fs_employee>,
+              <fs_ti_employee>.
   ENDMETHOD.
 
 ENDCLASS.

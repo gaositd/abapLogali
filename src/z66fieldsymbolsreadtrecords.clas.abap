@@ -40,9 +40,12 @@ CLASS z66fieldsymbolsreadtrecords IMPLEMENTATION.
     ).
 
     READ TABLE ti_employees ASSIGNING FIELD-SYMBOL(<fs_flight>) INDEX 2."OK
+    <fs_flight>-dateofbirth = '20161224'.
     out->write( data = <fs_flight> name = '<fs_flight> read table'  ).
     clear: <fs_flight>.
     READ TABLE ti_employees ASSIGNING <fs_flight> WITH KEY employeeid = '123'.
+*    <fs_flight>-gender = '🤷 and ¯\_(ツ)_/¯ and 🤷‍♂️ and 🤷‍♀️'. "Ther console support view emojis
+<fs_flight>-gender = '🤷'.
     out->write( data = <fs_flight> name = '<fs_flight> read table'  ).
   ENDMETHOD.
 

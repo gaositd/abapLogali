@@ -1,4 +1,4 @@
-CLASS z62fieldymbolinlinedeclaration DEFINITION
+CLASS z63fieldymbolinlinedeclaration DEFINITION
   PUBLIC
   FINAL
   CREATE PUBLIC .
@@ -9,7 +9,7 @@ CLASS z62fieldymbolinlinedeclaration DEFINITION
   PRIVATE SECTION.
 ENDCLASS.
 
-CLASS z62fieldymbolinlinedeclaration IMPLEMENTATION.
+CLASS z63fieldymbolinlinedeclaration IMPLEMENTATION.
 
   METHOD if_oo_adt_classrun~main.
     DATA: vg_employee  TYPE String.

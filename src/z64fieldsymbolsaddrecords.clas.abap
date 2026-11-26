@@ -20,7 +20,7 @@ CLASS z64fieldsymbolsaddrecords IMPLEMENTATION.
     <fs_employee_append> = VALUE #(
       client            = sy-mandt
       id                = '4FC6F27A39DF30E2BFC17180E0B319A2'
-      employeeid        = '0001'
+      employeeid        = 124
       firstname         = 'Daniela Iveth'
       lastname          = 'Meraz Silva'
       department        = 'Teachers'
